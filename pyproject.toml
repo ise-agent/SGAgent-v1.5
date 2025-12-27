@@ -1,0 +1,31 @@
+[project]
+
+
+name = "isea"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chardet>=5.2.0",
+    "grep-ast>=0.9.0",
+    "langchain>=0.3.27",
+    "langchain-openai>=0.3.33",
+    "langgraph>=0.6.7",
+    "neo4j>=5.28.2",
+    "pandas>=2.3.2",
+    "prometheus-client>=0.23.1",
+    "pyarrow>=21.0.0",
+    "pydantic-ai>=1.26.0",
+    "pydantic-settings>=2.11.0",
+    "pygments>=2.19.2",
+    "pytest>=9.0.1",
+    "pytest-asyncio>=1.3.0",
+    "rich>=14.2.0",
+    "ruff>=0.14.6",
+    "sb-cli>=0.1.5",
+    "tree-sitter-languages>=1.10.2",
+    "typer>=0.19.2",
+]
+
+

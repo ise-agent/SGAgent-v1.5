@@ -1,0 +1,8 @@
+__pycache__/
+results*/
+logs*/
+patch_diff*/
+.DS_Store
+.ruff_cache
+.pytest_cache
+.claude
