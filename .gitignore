@@ -6,3 +6,4 @@ patch_diff*/
 .ruff_cache
 .pytest_cache
 .claude
+uv.lock
