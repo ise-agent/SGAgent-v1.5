@@ -17,7 +17,9 @@ While Large Language Models (LLMs) have shown great promise in software engineer
 To address these limitations, **SGAgent** introduces an explicit **planning and suggestion phase**. By reasoning about *why* and *how* to modify the codebase before applying edits, it ensures more reliable, interpretable, and context-aware software repairs, effectively handling the dependencies inherent in large-scale software development.
 
 <div align="center">
-  <img src="statics/overflow.png" alt="SGAgent Workflow" width="100%">
+  <video src="https://github.com/user-attachments/assets/26359637-c05a-47c1-90fb-bb165f581b8c" controls="controls" width="100%">
+    Your browser does not support the video tag.
+  </video>
 </div>
 
 ## Demo
