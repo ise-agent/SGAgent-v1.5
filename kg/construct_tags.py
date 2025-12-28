@@ -132,6 +132,8 @@ class CodeGraph:
                 (function_definition name: (identifier) @name.definition.function)
                 (call function: [(identifier) @name.reference.call
                                   (attribute attribute: (identifier) @name.reference.call)])
+                (class_definition superclasses: (argument_list (identifier) @name.reference.class))
+                (type (identifier) @name.reference.type)
             """)
             captures = query.captures(tree.root_node)
         except Exception as e:
@@ -149,7 +151,7 @@ class CodeGraph:
                 if name in std_funcs or name in std_libs or name in dir(builtins):
                     continue
 
-                category = 'class' if 'class' in capture_name else 'function'
+                category = 'class' if 'class' in capture_name or 'type' in capture_name else 'function'
                 info = ''
                 line_nums = [node.start_point.row, node.end_point.row]
 
